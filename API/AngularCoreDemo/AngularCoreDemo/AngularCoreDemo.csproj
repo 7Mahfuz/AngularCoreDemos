@@ -15,4 +15,9 @@
     <Folder Include="Areas\CRUD\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Logics\Demo.Logics.csproj" />
+    <ProjectReference Include="..\DemoModels\DemoModels.csproj" />
+  </ItemGroup>
+
 </Project>
